@@ -1,0 +1,61 @@
+header{
+    background-color: cadetblue;
+    width: 100%;
+    height: 60px;
+    display:block;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.15);
+} 
+
+body {
+    background-color: #e2eaee;
+    margin: 0;
+}
+
+main{
+    width: 20%;
+    display: table;
+    margin: 100px auto 0 auto; /*sempre no sentido horario*/ 
+}
+
+.card_container {
+    width: 400px;
+    display: table;
+}
+
+.card{
+    width: 100%;
+    display: table; /*deixa a altura dinamica a quanto conteudo há*/
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.08);
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.card .card-img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 6px;
+    border: 4px solid #e2eaee;
+}
+
+.card .card-body h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    line-height: 21px;
+    color:  cadetblue;
+    margin-top: 15px;
+}
+
+.btn{
+    width: 300px;
+    height: 45px;
+    background-color: cadetblue;
+    border-radius: 4px;
+    display: block;
+    margin-top: 25px;
+    float: left;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.15);
+}
